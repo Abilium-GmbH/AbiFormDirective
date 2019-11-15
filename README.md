@@ -1,6 +1,6 @@
 # Concurrent autosaving Form Directive
 
-This is a demo of our autosaveable directive. It helps you to provide a neat user experience by reloading data on focusing of input fields inside of a form and automatically saving the fields after change.
+This is a demo of our concurrent autosaveable directive. It helps you to provide a neat user experience by reloading data on focusing of input fields inside of a form and automatically saving the fields after change. It allows users to concurrently update data of the same object without having collisions.
 
 ## How does it work?
 
