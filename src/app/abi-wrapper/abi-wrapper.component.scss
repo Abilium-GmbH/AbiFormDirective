@@ -1,0 +1,44 @@
+
+:host {
+
+    display: block;
+    width: 100%;
+    height: 40px;
+
+    /deep/ label {
+        color: darken(gray, 20%);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    /deep/ input {
+        border: none;
+        color: darken(skyblue, 20%);
+        font-size: 12pt;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 1px;
+        padding: 3px 5px;
+
+        &:focus {
+            border-bottom: 1px solid darken(skyblue, 20%);
+            outline: none;
+            margin: 0;
+        }
+    }
+
+    .hint {
+        color: limegreen;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 9pt;
+        margin-left: 100px;
+        display: none;
+    }
+
+    &.saved {
+        .hint {
+            display: block;
+        }
+    }
+}   
+   
+
+ 
